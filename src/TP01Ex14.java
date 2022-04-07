@@ -9,7 +9,17 @@ public class TP01Ex14 {
         //digitados.
 
         Scanner ler =  new Scanner(System.in);
+        System.out.println("Insira o valor da aresta: ");
+        double aresta = ler.nextDouble();
 
+        System.out.println("Insira o valor da raio: ");
+        double raio = ler.nextDouble();
+
+        double volumeC = Math.pow(aresta,3);
+        double volumeE = 4 * 3.14* Math.pow(raio,3);
+        double volumeL = volumeC - volumeE;
+
+        System.out.println("O volume livre do ambiente é: " +volumeL);
 
     }
 }
