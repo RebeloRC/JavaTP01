@@ -1,3 +1,5 @@
+//Feito por Guilherme Pontes e Rodrigo Rebelo
+
 import java.util.Scanner;
 
 public class TP01Ex18 {
