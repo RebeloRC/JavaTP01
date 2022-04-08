@@ -30,7 +30,7 @@ public class TP01Ex18 {
         System.out.println("Entre com o valor pago : ");
         double pago = ler.nextDouble();
 
-        double troco = pagp - total;
+        double troco = pago - total;
         System.out.println("O troco é : "+troco);
 
 
